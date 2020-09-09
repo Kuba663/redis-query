@@ -22,6 +22,9 @@ class Lexer(object):
         self.lexer.add("CREATE",r'CREATE')
         self.lexer.add("DOCUMENT",r'DOCUMENT')
         self.lexer.add("AT",r'AT')
+        self.lexer.add("IS",r'IS')
+        self.lexer.add("COMMA",r'\,')
+        self.lexer.add("TEMPLATE",r'TEMPLATE')
         self.lexer.ignore('\s+')
         pass
     def get_lexer(self):
