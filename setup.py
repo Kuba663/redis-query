@@ -19,6 +19,8 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
+        "Intended Audience :: Developers",
+        "Development Status :: 2 - Pre-Alpha",
     ],
     packages=["RedisQuery"],
     include_package_data=True,
